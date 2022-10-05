@@ -17,7 +17,7 @@ In the data analysis, we consider the maximum lag-time as $\Delta=|\frac{T}{3}|$
 
 $$  \langle \overline{\delta^{2}(\Delta)} \rangle \sim t^{2H-2J}\Delta^{2J},$$
 
-where $J\in[0,1]$ is called the Joseph exponent, which is associated with the autocorrelations in the time series. For a random process without long-ranged autocorrelations; $J=\frac{1}{2}$. If a process is long-ranged and positively correlated; $\frac{1}{2}<J \leq 1$, and for an anti-correlated process $0<J<\frac{1}{2}$ [[2]](#1).
+where $J\in[0,1]$ is called the Joseph exponent, which is associated with the autocorrelations in the time series. For a random process without long-ranged autocorrelations; $J=\frac{1}{2}$. If a process is long-ranged and positively correlated; $\frac{1}{2} <= 1$, and for an anti-correlated process $0<J<\frac{1}{2}$ [[2]](#1).
 
 
 
