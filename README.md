@@ -1,7 +1,7 @@
 # Anomalous diffusion
 In a diffusion process, the observables have stochastic motions which their variance change as follows: 
 $$\langle y^2(t) \rangle \sim 2Dt^{2H}$$. 
-In a normal diffusion $H=1/2$. When $H$ deviates from $1/2$, the process is called anomalous diffusion. In that case there is violation from the central limit theorem. 
+In a normal diffusion $H=1/2$. When $H$ deviates from $1/2$, the process is called anomalous diffusion [1](#1). In that case there is violation from the central limit theorem. 
 
 Typically the values
 of the observables are unbounded, such that the expected squared displacement
@@ -22,3 +22,11 @@ paradigmatic model is scaled Brownian motion \cite{Jeo14}. In contrast to
 this, the exponent remains $H=1/2$ in the long time limit in case of,
 e.g., periodic non-stationarities, since a longer temporal spacing would
 eliminate the non-stationarity.
+
+ ## References
+ <a id="1">[1]</a>
+ Chen, Lijian and Bassler, Kevin E. and McCauley, Joseph L. and Gunaratne, Gemunu H. (2017)
+ Anomalous scaling of stochastic processes and the Moses effect.
+ Phys. Rev. E, 95, 042141.
+
+
