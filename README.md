@@ -3,8 +3,8 @@ In a diffusion process, the observables have stochastic motions which their vari
 $$\sigma^{2}=(\langle Y^{2}(t)\rangle - \langle Y(t)\rangle ^{2}) \sim t^{2H}.$$ 
 Where $H$ is called the Hurst exponent. In a normal diffusion $H=1/2$, the process is called anomalous when $H$ deviates from $1/2$ [[1]](#1). In the latter case there is a violation from the central limit theorem which could have either of these three reasons; 1) the increments $x(t)=y(t+\Delta)-y(t)$ are not independent for all time differences $\Delta$ (the Joseph effect) [[2,3]](#1). 2) the variance of the increments is infinite (the Noah effect). 3) the increment distribution is non-stationary (the Moses effect).
 
-# Time averaged MSD and the correlation
-Let $Y_{i}(t)=\sum_{n}^t X_i(n)$, be the cumulative sum of the increments, for trajectory $i$ (imagine we have an ensemble of the trajectories), $t$ is time. 
+# Time averaged Mean Square Displacement (MSD) and the correlation
+Let; $$Y_{i}(t)=\sum_{n}^t X_i(n)$$, be the cumulative sum of the increments, for trajectory $i$ (imagine we have an ensemble of the trajectories), $t$ is time. 
 So, $Y_{i}(t)$ could be any types of trajectories. Here in this repository, I looked for the fluctuations of the citation time series, but you can apply this to other process as well like stock prices if you have an ensemble of different stocks. 
 The Time Averaged Mean Square Displacement (TA-MSD) for a single trajectory is given by, [[4]](#1);
  $$\overline{\delta^{2}(\Delta)}=\frac{1}{T-\Delta}\sum_{t'=0}^{t'=T-\Delta} (Y_{i}(t'+\Delta)-Y_{i}(t'))^{2}.$$
