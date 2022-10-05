@@ -7,7 +7,7 @@ Where $H$ is called the Hurst exponent. In a normal diffusion $H=1/2$, the proce
 Let $Y_{i}(t)=\sum_{n=0}^t X_i(n)$, be the cumulative sum of the increments, for trajectory $i$ (imagine we have an ensemble of the trajectories), $t$ is time. 
 So, $Y_{i}(t)$ could be any types of trajectories. Here in this repository, I looked for the fluctuations of the citation time series, but you can apply this to other process as well like stock prices if you have an ensemble of different stocks. 
 The Time Averaged Mean Square Displacement (TA-MSD) for a single trajectory is given by, [[4]](#1);
- $$ \overline{\delta^{2}(\Delta)}=\frac{1}{T-\Delta}\sum_{t'=0}^{t'=T-\Delta} [Y_{i}(t'+\Delta)-Y_{i}(t')]^{2}.$$
+ $ \overline{\delta^{2}(\Delta)}=\frac{1}{T-\Delta}\sum_{t'=0}^{t'=T-\Delta} [Y_{i}(t'+\Delta)-Y_{i}(t')]^{2}.$
  
  $t=T$ is the maximal measured time, which in our dataset is $T=34$ years. The ensemble-averaged TA-MSD is: $\langle \overline{\delta^{2}(\Delta)} \rangle= \frac{1}{N} \sum_{i=1}^{N}\overline{\delta_{i}^{2}(\Delta)}$. 
 
