@@ -1,6 +1,6 @@
 # Anomalous diffusion
 In a diffusion process, the observables have stochastic motions which its variance change as follows: 
-$$ \sqrt{\langle y^2(t) \rangle} \sim 2Dt^H$$
+$ \sqrt{\langle y^2(t) \rangle} \sim 2Dt^H$
 
 Typically the values
 of the observables are unbounded, such that the expected squared displacement
