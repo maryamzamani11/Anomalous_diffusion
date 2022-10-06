@@ -29,7 +29,7 @@ For normal diffusive processes, with stationary increments; $M=1/2$. For nonstat
 
 In time-series analysis, when we do not have a large ensemble of data to obtain clear statistics from, the influence of fat-tails in the increment distribution of the process on the anomalous diffusion, can be measured directly \textbf{from a small number of sufficiently long paths}, with the so-called "Noah effect". The Latent exponent $L$ can be found from:
 $$\langle Z_{t} \rangle \sim t^{M+\frac{1}{2}}.$$
- $$ Z_{t}= \sum_{s=1}^{t} (x_{i}(s) - \langle x_i(s) \rangle)^{2}),$$ 
+ $$Z_{t}= \sum_{s=1}^{t} (x_{i}(s) - \langle x_i(s) \rangle)^{2}).$$ 
  ## References
  <a id="1">[1]</a>
  Chen, Lijian and Bassler, Kevin E. and McCauley, Joseph L. and Gunaratne, Gemunu H. (2017)
