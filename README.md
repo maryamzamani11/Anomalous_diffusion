@@ -9,11 +9,11 @@ So, $Y_{i}(t)$ could be any types of trajectories. Here in this repository, I lo
 The Time Averaged Mean Square Displacement (TA-MSD) for a single trajectory is given by, [[4]](#1);
  $$\overline{\delta^{2}(\Delta)}=\frac{1}{T-\Delta}\sum_{t'=0}^{t'=T-\Delta} (Y_{i}(t'+\Delta)-Y_{i}(t'))^{2}.$$
  
- $t=T$ is the maximal measured time, which in our dataset is $T=34$ years. The ensemble-averaged TA-MSD is:
+ The overline means time-average, $t=T$ is the maximal measured time, which in our dataset is $T=34$ years. The ensemble-averaged TA-MSD is:
 
 $$\langle \overline{\delta^{2}(\Delta)} \rangle= \frac{1}{N} \sum_{i=1}^{N}\overline{\delta_{i}^{2}(\Delta)}.$$
 
-In the data analysis, we consider the maximum lag-time as $\Delta=|\frac{T}{3}|$. It has been shown that the TA-MSD scales as [[1]](#1): 
+where, angled brackets mean ensemble average, in the data analysis, we consider the maximum lag-time as $\Delta=|\frac{T}{3}|$. It has been shown that the TA-MSD scales as [[1]](#1): 
 
 $$  \langle \overline{\delta^{2}(\Delta)} \rangle \sim t^{2H-2J}\Delta^{2J},$$
 
@@ -23,7 +23,7 @@ where $J\in[0,1]$ is called the Joseph exponent, which is associated with the au
 
 in a stochastic process $Y_{t}$, if the probability distribution of the increments $(Y(t+\tau)-Y(t))$ is independent of $t$, the increments are considered stationary. In Refs.[[1]](#1), it was shown that the level of non-stationarity can be quantified by a single parameter, which is called the Moses exponent. This parameter can be measured directly from the data. The Moses exponent $M$ is defined with the temporal scaling of the enseble average of the time series, of the sum of the absolute value of increments of the process. We can obtain the Moses exponent from:  
 $$\langle Y(t) \rangle \sim t^{M+\frac{1}{2}}.$$
-$$ \langle Y(t) \rangle \sim t^{M+\frac{1}{2}} $$
+
 
  ## References
  <a id="1">[1]</a>
