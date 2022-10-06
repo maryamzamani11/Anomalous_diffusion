@@ -32,7 +32,14 @@ In time-series analysis, when we do not have a large ensemble of data to obtain 
  $$\langle Z_{t}\rangle = \langle \sum_{s=1}^{t} (x_{i}(s) - \langle x_i(s) \rangle)^{2}) \rangle \sim t^{2L+2M-1}.$$ 
 
 Note that, here I wrote a sampled ensemble average, which is guaranteed to have a finite value at finite times, as opposed to the theoretical value which will be divergent if the increment distribution has scale-free fat tails. One can also use the sampled-median here, instead of the mean. 
-When $M=1/2$, we do not observe aging effects in the time-series, if $L=1/2$; $\langle Z_{t}\rangle \sim t$, which is similar to a standard Gaussian process with a finite increment-variance. On the other hand, when $L>1/2$, this can only occur because the increment distribution at least has a regime, with a power-law shape that falls-off as $1/C^\gamma$, and $0<\gamma<2$ [[2]](#1). In this regime the distribution does not have a typical value. This power-law shape of the tails of the distribution might have a time-dependent cutoff, which is pushed towards $\infty$ as time increases.
+When $M=1/2$, we do not observe aging effects in the time-series, if $L=1/2$; $\langle Z_{t}\rangle \sim t$, which is similar to a standard Gaussian process with a finite increment-variance. On the other hand, when $L>1/2$, this can only occur because the increment distribution at least has a regime, with a power-law shape that falls-off as $1/C^\gamma$, and $0<\gamma<2$ [[1,2]](#1). In this regime the distribution does not have a typical value. This power-law shape of the tails of the distribution might have a time-dependent cutoff, which is pushed towards $\infty$ as time increases.
+
+## Hurst exponent
+
+The Hurst exponet which can be found from the variance of the process (the first equation above), it was shown that using the three exponents; $M,L$ and $J$, we can obtain the Hurst exponent with a simple summation relation. 
+$$H=J+L+M-1.$$
+
+You can read the explanation of all the figures that I found in this code in ref.[[6]](#1). 
 
  ## References
  <a id="1">[1]</a>
@@ -59,5 +66,13 @@ When $M=1/2$, we do not observe aging effects in the time-series, if $L=1/2$; $\
 Meyer, Philipp G and Adlakha, Vidushi and Kantz, Holger and Bassler, Kevin E. (2018)
 Anomalous diffusion and the Moses effect in an aging deterministic model.
 New Journal of Physics, 20(11), 113033.
+
+<e id="6">[6]</e>
+Zamani, Maryam and Aghion, Erez and Pollner, Peter and Vicsek, Tamas and Kantz, Holger. (2021)
+Anomalous diffusion in the citation time series of scientific publications.
+Journal of Physics: Complexity, 2(3), 035024.
+
+
+
 
 
