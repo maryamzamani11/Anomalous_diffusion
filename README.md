@@ -22,7 +22,7 @@ where $J\in[0,1]$ is called the Joseph exponent, which is associated with the au
 ## Nonstationarity and the Moses exponent
 
 in a stochastic process $Y_{t}$, if the probability distribution of the increments $(Y(t+\tau)-Y(t))$ is independent of $t$, the increments are considered stationary. In Refs.[[1]](#1), it was shown that the level of non-stationarity can be quantified by a single parameter, which is called the Moses exponent. This parameter can be measured directly from the data. The Moses exponent $M$ is defined with the temporal scaling of the enseble average of the time series, of the sum of the absolute value of increments of the process. We can obtain the Moses exponent from:  
-$$\langle \overline{\delta^{2}(\Delta)} \rangle= \frac{1}{N} \sum_{i=1}^{N}\overline{\delta_{i}^{2}(\Delta)}.$$
+$$\langle Y(t) \rangle \sim t^(\frac{1}{N}).$$
 $$ \langle Y(t) \rangle \sim t^{M+\frac{1}{2}} $$
 
  ## References
