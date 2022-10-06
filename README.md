@@ -1,7 +1,7 @@
 # Anomalous diffusion
 In a diffusion process, the observables have stochastic motions which their variance change as follows: 
 $$\sigma^{2}=(\langle Y^{2}(t)\rangle - \langle Y(t)\rangle ^{2}) \sim t^{2H}.$$ 
-Where $H$ is called the Hurst exponent. In a normal diffusion $H=1/2$, the process is called anomalous when $H$ deviates from $1/2$ [[1]](#1). In the latter case there is a violation from the central limit theorem which could have either of these three reasons; 1) the increments $x(t)=y(t+\Delta)-y(t)$ are not independent for all time differences $\Delta$ (the Joseph effect) [[2,3]](#1). 2) the variance of the increments is infinite (the Noah effect). 3) the increment distribution is non-stationary (the Moses effect).
+Where $H$ is called the Hurst exponent. In a normal diffusion $H=1/2$, the process is called anomalous when $H$ deviates from $1/2$ [[1]](#1). In the latter case there is a violation from the central limit theorem which could have either of these three reasons; 1) the increments $x(t)=y(t+\Delta)-y(t)$ are not independent for all time differences $\Delta$ (the Joseph effect) [[2,3]](#1). 2) the variance of the increments is infinite (the Noah effect). 3) the increment distribution is non-stationary (the Moses effect)[[1]](#1).
 
 # Time averaged Mean Square Displacement (MSD) and the correlation
 Let; $$Y_{i}(t)=\sum_{n}^t X_i(n)$$, be the cumulative sum of the increments, for trajectory $i$ (imagine we have an ensemble of the trajectories), $t$ is time. 
@@ -19,8 +19,10 @@ $$  \langle \overline{\delta^{2}(\Delta)} \rangle \sim t^{2H-2J}\Delta^{2J},$$
 
 where $J\in[0,1]$ is called the Joseph exponent, which is associated with the autocorrelations in the time series. For a random process without long-ranged autocorrelations; $J=\frac{1}{2}$. If a process is long-ranged and positively correlated; $\frac{1}{2} < J <= 1$, and for an anti-correlated process $0 < J < \frac{1}{2}$ [[2]](#1).
 
+## Nonstationarity and the Moses exponent
 
-
+in a stochastic process $Y_{t}$, if the probability distribution of the increments $(Y(t+\tau)-Y(t))$ is independent of $t$, the increments are considered stationary. In Refs.[[1]](#1), it was shown that the level of non-stationarity can be quantified by a single parameter, which is called the Moses exponent. This parameter can be measured directly from the data. The Moses exponent $M$ is defined with the temporal scaling of the enseble average of the time series, of the sum of the absolute value of increments of the process. We can obtain the Moses exponent from:  
+$$  {\langle Y(t)\rangle}=t\langle\overline{C_i(t)}\rangle\sim t^{M+\frac{1}{2}} $$
 
  ## References
  <a id="1">[1]</a>
