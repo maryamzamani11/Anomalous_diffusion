@@ -29,7 +29,7 @@ For normal diffusive processes, with stationary increments; $M=1/2$. For nonstat
 
 In time-series analysis, when we do not have a large ensemble of data to obtain clear statistics from, the influence of fat-tails in the increment distribution of the process on the anomalous diffusion, can be measured directly \textbf{from a small number of sufficiently long paths}, with the so-called "Noah effect". The Latent exponent $L$ can be found from:
 
- $$\langle Z_{t}\rangle = \langle \sum_{s=1}^{t} (X_{i}(s) - \langle X_i(s) \rangle)^{2}) \rangle \sim t^{2L+2M-1}.$$ 
+ $$\langle Z_{t}\rangle = \langle \sum_{s=1}^{t} (X_{i}(s))^{2}) \rangle \sim t^{2L+2M-1}.$$ 
 
 Note that, here I wrote a sampled ensemble average, which is guaranteed to have a finite value at finite times, as opposed to the theoretical value which will be divergent if the increment distribution has scale-free fat tails. One can also use the sampled-median here, instead of the mean. 
 When $M=1/2$, we do not observe aging effects in the time-series, if $L=1/2$; $\langle Z_{t}\rangle \sim t$, which is similar to a standard Gaussian process with a finite increment-variance. On the other hand, when $L>1/2$, this can only occur because the increment distribution at least has a regime, with a power-law shape that falls-off as $1/C^\gamma$, and $0<\gamma<2$ [[1,2]](#1). In this regime the distribution does not have a typical value. This power-law shape of the tails of the distribution might have a time-dependent cutoff, which is pushed towards $\infty$ as time increases.
